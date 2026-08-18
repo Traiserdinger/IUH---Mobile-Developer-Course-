@@ -1,40 +1,56 @@
-# 📱 SmartCampus - React Native
-**Bài Thực Hành Chương 2: Core Primitives & Interaction**
+# Welcome to your Expo app 👋
 
----
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## 👨‍🎓 Thông Tin Sinh Viên
-- 👤 **Họ và tên:** Nguyễn Đức Trung
-- 🆔 **Mã SV:** 23687791
-- 🏫 **Lớp:** DHDTMT18A
+## Get started
 
----
+1. Install dependencies
 
-## 🛠️ Các Component Đã Sử Dụng
+   ```bash
+   npm install
+   ```
 
-🔹 **Core Primitives:** `View`, `Text`, `Image`, `TextInput`, `ScrollView`.
+2. Start the app
 
-🔹 **Custom Components:**
-- 🏷️ **`Header.tsx`**: Thanh tiêu đề của ứng dụng.
-- 🖼️ **`StudentInfo.tsx`**: Khung chứa thông tin và ảnh đại diện. Có sử dụng `Pressable` mở rộng vùng chạm bằng `hitSlop` và hiệu ứng mờ đi (`opacity`) khi nhấn.
-- 🖱️ **`CustomButton.tsx`**: Nút "LƯU HỒ SƠ" xử lý 3 trạng thái: Bình thường (xanh), Đang nhấn (xanh đậm + hiệu ứng lún xuống), Vô hiệu hóa (xám).
+   ```bash
+   npx expo start
+   ```
 
-🔹 **Trợ năng (Accessibility):** Các vùng chạm đều được khai báo đầy đủ `accessibilityRole`, `accessibilityLabel`, `accessibilityHint` và `accessibilityState`.
+In the output, you'll find options to open the app in a
 
----
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-## 🚀 Hướng Dẫn Chạy Ứng Dụng
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-**Bước 1:** Mở Terminal tại thư mục chứa dự án và cài đặt các thư viện cần thiết:
+## Get a fresh project
+
+When you're ready, run:
+
 ```bash
-npm install
+npm run reset-project
 ```
 
-**Bước 2:** Khởi động server Expo:
-```bash
-npx expo start
-```
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-**Bước 3:** Trải nghiệm ứng dụng:
-- 🌐 Nhấn phím `w` trên Terminal để mở nhanh bằng trình duyệt Web giả lập.
-- 📱 Hoặc mở ứng dụng **Expo Go** trên điện thoại để quét mã QR.
+### Other setup steps
+
+- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
+- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
+- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
